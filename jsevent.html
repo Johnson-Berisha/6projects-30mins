@@ -7,6 +7,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <button class="btn">click me</button>
+    <h1 class="hello"></h1>
+
+    <script>
+        const btn = document.querySelector('.btn');
+        const text = document.querySelector('.hello');
+
+btn.addEventListener('click', onClick);
+
+function onClick (e){
+    text.innerHTML = 'hello test';
+}
+
+    </script>
 </body>
 </html>

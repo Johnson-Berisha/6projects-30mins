@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: verdana;
+    height: 100vh;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13em;
+    font-weight: bold;
+    color: #333;
+}
+
+input {
+    border: none;
+    padding-bottom: 15px;
+    animation-name: e;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    margin: 25px;
+}
+
+
+@keyframes e {
+    0% {
+        border-bottom: orangered 6px solid;
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+        border-bottom: orangered 6px solid;
+    }
+}
+
+/* text box */
+
+.tet {
+    display: flex;
+    justify-content: space-between;
+    background-color: orangered;
+    color: wheat;
+    padding: 25px;
+}
+
+/* showcase */
+
+.show {
+    background-color: orangered;
+    color: white;
+    padding: 12px;
+    border-radius: 12px;
+    border-bottom: rgb(160, 54, 16) 5px solid;
+    border-right: rgb(160, 54, 16) 6px solid;
+    margin: 25px;
+    margin-top: 25px;
+}
+
+.show h1 {
+    font-size: 3em;
+}
+
+.p {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.p2 {
+    background-color: orange;
+    padding: 6px;
+}
+
+/* header */
+.header {
+    background-color: orangered;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    animation-fill-mode: forwards;
+    animation-name: h;
+    animation-duration: 2s;
+}
+
+
+.header a {
+    color: white;
+    padding-left: 5px;
+    text-decoration: none;
+    font-size: 21px;
+    padding-bottom: 5px;
+}
+
+@keyframes h {
+    0% {
+        opacity: 0;
+    }
+25% {
+    background-color: red;
+}
+
+    50% {
+        background-color: yellow;
+    }
+
+    75% {
+        background-color: lime;
+    }
+    100% {
+        background-color: orangered;
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
