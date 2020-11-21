@@ -11,9 +11,23 @@
         <h1 class="ti">DEV</h1>
         <div class="links">
             <a href="#">Home</a>
-            <a href="#">About</a>
+            <a href="#" class="t">About</a>
             <a href="#">Contact</a>
         </div>
     </div>
+
+    <h1 class="test"></h1>
+
+    <script>
+        const t = document.querySelector('.t');
+        const text = document.querySelector('.test');
+
+        t.addEventListener('click', onClick);
+
+        function onClick (){
+            text.innerHTML = 'DEV Boiss'
+            text.classList.add('c');
+        }
+    </script>
 </body>
 </html>

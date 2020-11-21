@@ -21,7 +21,7 @@ input {
     border: none;
     padding-bottom: 15px;
     animation-name: e;
-    animation-duration: 1s;
+    animation-duration: 2.2s;
     animation-fill-mode: forwards;
     margin: 25px;
 }
@@ -120,7 +120,36 @@ input {
 }
 
 
+.c {
+    display: flex;
+    color: orangered;
+    justify-content: center;
+    font-size: 7em;
+    animation-name: c;
+    animation-duration: 2.2s;
+    animation-fill-mode: forwards;
+}
 
+@keyframes c {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        color: red;
+    }
+
+    50% {
+        color: greenyellow;
+    }
+
+    75% {
+        color: indigo;
+    }
+    100% {
+        opacity: 1;
+        color: orangered;
+    }
+}
 
 
 
